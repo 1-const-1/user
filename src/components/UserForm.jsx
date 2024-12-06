@@ -31,7 +31,7 @@ const UserForm = () => {
       </div>
       <div>
         <label>About me</label>
-        <textarea name="about" placeholder={txtplh}></textarea>
+        <textarea name="about" placeholder={txtplh} cols={22} rows={10}></textarea>
       </div>
       <button 
         onClick={() => createUser(document.querySelector("form"))}>Create</button>

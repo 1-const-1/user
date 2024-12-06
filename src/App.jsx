@@ -9,7 +9,7 @@ const App = () => {
   const uri = location.pathname;
 
   return (
-    <div>
+    <div className="form-cnt">
       <div>
         <NavBar/>
       </div>
